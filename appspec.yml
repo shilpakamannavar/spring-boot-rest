@@ -8,7 +8,9 @@ hooks:
    - location: setup.sh
      timeout: 300
      runas: root
+     mode: 755
   ApplicationStart:
    - location: run.sh
      timeout: 300
      runas: root
+     mode: 755
